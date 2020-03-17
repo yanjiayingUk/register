@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<!--STATUS OK-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="百度帐号是登录所有百度系产品的通行证，登录后还可以在帐户管理页管理/修改您的个人信息，包括修改密码、绑定手机、身份认证等">
+    <title>
+        注册百度帐号
+    </title>
+    <link rel="stylesheet" href="./register.css">
+</head>
+
+<body>
+    <div id="wrapper" class="">
+        <div id="content">
+            <div class="mod-new-reg-bg">
+                <img src="https://passport.baidu.com/static/passpc-account/img/reg_bg_min.jpg">
+            </div>
+            <div class="mod-new-reg-wrapper">
+                <div class="mod-new-reg-logo">
+                    <img src="https://passport.baidu.com/static/passpc-account/img/baidu.png">
+                </div>
+                <div class="mod-new-reg-text">
+                    <h3>用科技</h3>
+                    <p>让复杂的世界更简单</p>
+                </div>
+                <div class="mod-new-reg-footer">
+                    <span class="mod-new-reg-help">
+                        <a class="mode-new-reg-help-text" href="https://passport.baidu.com/v2/?ucenterfeedback#reg"
+                            target="_blank">帮助中心</a>
+                        <span class="mod-new-reg-line"></span>
+                        <a class="mod-new-reg-service"
+                            href="https://zhiqiu.baidu.com/imcswebchat/roulette/in?id=48721&token=1nnbs7op4ocsr68143oamrjq9c4eoin2&domainID=pass&type=2"></a>
+                    </span>
+                    <span class="mod-new-reg-copyright">2020&nbsp;&copy;Baidu</span>
+                </div>
+            </div>
+            <div class="mod-reg clearfix mod-reg- mod-new-reg-content">
+                <div class="new-reg-guide-login">
+                    <h3>欢迎注册</h3>
+                    <p>已有帐号？<span id="login_btn">登录</span></p>
+                </div>
+                <div class="main" id="reg_content">
+
+                    <div class='e'>
+                        <label>用户名</label>
+                        <input id="person" type="text" placeholder="请设置用户名" class='a'>
+                    </div>
+                    <div id="person-validation-message"></div>
+
+                    <div class='f'>
+                        <label>手机号</label>
+                        <input id="phone" type="text" placeholder="可用于登录和找回密码" class='a'>
+                    </div>
+                    <div id="phone-validation-message"></div>
+
+                    <div class='f'>
+                        <label>密码</label>
+                        <input id="pwd" type="password" placeholder="请设置登录密码" class='a'>
+                    </div>
+                    <div id="pwd-validation-message"></div>
+
+                    <div class='f'>
+                        <label class='yan'>验证码</label>
+                        <input id="sub" type="text" placeholder="请输入验证码" class='b'>
+                        <input id="subyan" value="获取验证码" type="button" class='c'>
+                    </div>
+                    <br>
+                    <div id="sub-validation-message"></div>
+
+                    <input id="zhuce" type="button" value="注册" class="submit-button">
+
+                    <p>
+                        <input name="isAgree" id="isagree" type="checkbox" autocomplete="off" class='d'>
+
+                        <p class="xie">阅读并接受
+                        <a target="_blank"
+                            href="http://passport.baidu.com/static/passpc-account/html/protocal.html">《百度用户协议》</a>
+                        及
+                        <a target="_blank" href="http://privacy.baidu.com/mdetail?id=288">《百度隐私权保护声明》</a>
+                        </p>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="./rejister.js"></script>
+</body>
+
+</html>
